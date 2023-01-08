@@ -14,7 +14,7 @@ pnpm add -D eslint @ohxxx/eslint-config
 
 `.eslintrc.json`
 
-```json
+```json5
 {
   "extends": "@ohxxx",
   "rules": {
@@ -25,7 +25,7 @@ pnpm add -D eslint @ohxxx/eslint-config
 
 `package.json`
 
-```json
+```json5
 {
   "scripts": {
     "lint": "eslint . --fix"
