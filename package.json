@@ -1,0 +1,25 @@
+{
+  "name": "@ohxxx/eslint-config",
+  "version": "0.0.1",
+  "description": "ESLint configuration of xxx",
+  "author": "xxx",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:ohxxx/eslint-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ohxxx/eslint-config/issues"
+  },
+  "keywords": [
+    "eslint",
+    "eslint config"
+  ],
+  "main": "index.js",
+  "files": ["index.js"],
+  "dependencies": {
+    "@antfu/eslint-config": "^0.34.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.31.0"
+  }
+}
