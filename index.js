@@ -1,6 +1,7 @@
 module.exports = {
   extends: '@antfu',
   rules: {
-    curly: ['error', 'all'],
+    'curly': ['error', 'all'],
+    'max-statements-per-line': 'off',
   },
 }
